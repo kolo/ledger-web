@@ -1,0 +1,17 @@
+.balance-table  {
+  border-collapse: collapse;
+}
+
+.balance-table__item {
+  padding-right: 12px;
+}
+
+.balance-table__item--number {
+  @extend .balance-table__item;
+  text-align: right;
+}
+
+.balance-table__item--total {
+  @extend .balance-table__item;
+  padding-top: 12px;
+}

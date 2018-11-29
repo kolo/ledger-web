@@ -1,0 +1,10 @@
+section {
+  width: 100%;
+}
+
+section article {
+  width: 720px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px;
+}
